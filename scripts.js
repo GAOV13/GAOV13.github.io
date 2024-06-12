@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const username = "tu-usuario"; // Cambia esto a tu nombre de usuario de GitHub
+    const username = "GAOV13"; //
     const reposList = document.getElementById("repos-list");
 
     fetch(`https://api.github.com/users/${username}/repos`)

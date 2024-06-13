@@ -1,9 +1,12 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     height: 100%;
+    width: 100vw;
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
 }
 
 header {
@@ -14,7 +17,7 @@ header {
     z-index: 1000;
     text-align: center;
     top: 0; /* Fija el header en la parte superior */
-    height: 10vh;
+    height: 7vh;
 }
 
 .nav_container {
@@ -28,7 +31,7 @@ header {
 
 .navbar-left {
     left: 0;
-    top: 10%;
+    top: -20px;
     margin-left: 20px; /* Espacio a la izquierda */
     position: absolute;
     
@@ -36,7 +39,7 @@ header {
 
 .navbar-right {
     right: 0;
-    top: 40%;
+    top: 0%;
     margin-right: 50px; /* Espacio a la derecha */
     display: flex;
     position: absolute;
@@ -59,22 +62,30 @@ main {
     flex: 1;
 }
 
-.container {
-    height: 80vh;
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr; /* Dos columnas de igual ancho */
     gap: 20px; /* Espacio entre las cajas */
     padding: 20px; /* Espaciado interno del grid */
+}
+
+.mia {
+    height: 100%;
+    width: 100%;
+}
+
+.mia img {
+    border-radius: 10px;
+    height: inherit;
+    width: inherit;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.grid-container-tam {
     height: 85vh;
-    background-color: aqua;
 }
 
 .grid-container-item {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
     height: inherit;
 }
 
@@ -105,6 +116,35 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
     bottom: 0;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.section {
+    padding: 5px 0;
+    clear: both;
+    width: 100%;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.container-hab {
+    display: flex;
+    justify-content: space-evenly   ;
 }

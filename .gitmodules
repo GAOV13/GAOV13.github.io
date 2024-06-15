@@ -1,0 +1,3 @@
+[submodule "FrontEnd-Mentor"]
+	path = FrontEnd-Mentor
+	url = https://github.com/GAOV13/FrontEnd-Mentor.git

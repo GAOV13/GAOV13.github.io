@@ -1,0 +1,40 @@
+.grid-container-tam {
+    height: 85vh;
+}
+
+.grid-container-item ul {
+    list-style-type: none;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+.info:hover {
+    color: rgb(18, 186, 127);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.active {
+    color: rgb(11, 245, 163);
+}
+
+.display-mentor {
+    height: inherit;
+}
+
+.front-end-mentor-title {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.t-info {
+    font-weight: bold;
+}
+
+.t-info:hover {
+    color: rgb(18, 186, 127);
+    transition: 0.5s;
+    cursor: pointer;
+}

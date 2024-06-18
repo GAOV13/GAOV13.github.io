@@ -1,13 +1,20 @@
 data_front_end = {
     "NEWBIE": ["base-apparel-coming-soon-master", "interactive-rating-component-main", "nft-preview-card-component-main",
                "order-summary-component-main", "product-preview-card-component-main", "qr-code-component-main",
-               "results-summary-component-main"
+               "results-summary-component-main", "social-links-profile-main"
               ],
-    "Junior": ["newsletter-sign-up-with-success-message-main"],
+    "Junior": ["newsletter-sign-up-with-success-message-main", "interactive-card-details-form-main"],
 };
 
 const frontend_challenges = document.getElementById("frontend-challenge")
 
+/*
+Actualizar para poner limites de proyectos que se visualizan en la pagina front
+end.
+
+// let currentPage = 1;
+// const cardsPerPage = 5;
+*/
 
 function choose_link(url, val){
     set_active(val, "info");

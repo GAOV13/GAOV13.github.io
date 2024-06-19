@@ -1,7 +1,8 @@
 data_front_end = {
-    "NEWBIE": ["base-apparel-coming-soon-master", "interactive-rating-component-main", "nft-preview-card-component-main",
+    "NEWBIE": ["social-links-profile-main", "interactive-rating-component-main", "nft-preview-card-component-main",
                "order-summary-component-main", "product-preview-card-component-main", "qr-code-component-main",
-               "results-summary-component-main", "social-links-profile-main", "blog-preview-card-main"
+               "results-summary-component-main", "blog-preview-card-main", "base-apparel-coming-soon-master",
+               "recipe-page-main"
               ],
     "Junior": ["newsletter-sign-up-with-success-message-main", "interactive-card-details-form-main"],
     "Intermediate": [],

@@ -1,5 +1,5 @@
 header {
-    background-color: hsl(0, 0%, 20%);
+    background-color: rgb(55, 58, 64);
     color: #fff;
     position: sticky;
     padding: 1rem 0;
@@ -43,6 +43,6 @@ header {
 }
 
 .nav_container a:hover {
-    color: aquamarine;
+    color: rgb(220, 95, 0);
     transition: 0.5s;
 }

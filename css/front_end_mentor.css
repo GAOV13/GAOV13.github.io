@@ -8,16 +8,17 @@
 
 .info {
     margin-bottom: 10px;
+    width: 90%;
+    background-color: rgb(55, 58, 64);
+    color: rgb(238, 238, 238);
+    border-radius: 20px;
+    text-align: center;
 }
 
 .info:hover {
-    color: rgb(18, 186, 127);
+    background-color: rgb(220, 95, 0);
     transition: 0.5s;
     cursor: pointer;
-}
-
-.active {
-    color: rgb(11, 245, 163);
 }
 
 .display-mentor {
@@ -26,15 +27,29 @@
 
 .front-end-mentor-title {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .t-info {
     font-weight: bold;
+    background-color: rgb(55, 58, 64);
+    color: rgb(238, 238, 238);
+    width: 19%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: clamp(0.5rem, 0.9vw, 4rem);
+    border-radius: 10px;
 }
 
 .t-info:hover {
-    color: rgb(18, 186, 127);
+    background-color: rgb(220, 95, 0);
     transition: 0.5s;
     cursor: pointer;
+}
+
+.active {
+    background-color: rgb(104, 109, 118);
 }

@@ -6,6 +6,7 @@
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/front_end_mentor.css">
+    <link rel="stylesheet" href="./css/pagination.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -14,7 +15,7 @@
             <h1 class="navbar-left">Mi Portafolio</h1>
             <ul class="navbar-right">
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./front-end-mentor.html">Front End Mentor</a></li>
+                <li><a href="./front-end-mentor.html" style="color: rgb(220, 95, 0);">Front End Mentor</a></li>
                 <li><a href="./uva.html">uva</a></li>
                 <li><a href="./proyectos.html">Proyectos</a></li>
             </ul>
@@ -33,7 +34,7 @@
                     <ul class="front-end-mentor-title">
                         <li class="t-info" onclick="choose_elemets(0, 'NEWBIE')">Newbie</li>
                         <li class="t-info" onclick="choose_elemets(1, 'Junior')">Junior</li>
-                        <li class="t-info" onclick="choose_elemets(2, 'Intermediate')">Intermediate</li>
+                        <li class="t-info" onclick="choose_elemets(2, 'Intermediate')">Medium</li>
                         <li class="t-info" onclick="choose_elemets(3, 'Advance')">Advance</li>
                         <li class="t-info" onclick="choose_elemets(4, 'Guru')">Guru</li>
                     </ul>
@@ -48,6 +49,9 @@
                             <li class="info" onclick="choose_link('./FrontEnd-Mentor/NEWBIE/results-summary-component-main/index.html',6)">Results Summary Component</li>
                         </ul> -->
                         <!-- aqui van lo que se va a mostrat -->
+                    </div>
+                    <div class="pagination" id="pagination">
+                        <!-- La paginación se inyectará aquí -->
                     </div>
                 </div>
                 <div class="grid-container-item observar">

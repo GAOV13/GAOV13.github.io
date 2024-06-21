@@ -4,7 +4,8 @@ data_front_end = {
                "results-summary-component-main", "blog-preview-card-main", "base-apparel-coming-soon-master",
                "recipe-page-main", "four-card-feature-section-master"
               ],
-    "Junior": ["newsletter-sign-up-with-success-message-main", "interactive-card-details-form-main"],
+    "Junior": ["newsletter-sign-up-with-success-message-main", "interactive-card-details-form-main", "testimonials-grid-section-main"
+    ],
     "Intermediate": [],
     "Advance": [],
     "Guru": [],
